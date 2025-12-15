@@ -1,0 +1,28 @@
+{
+  "name": "signal-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SashaMaslak/signal-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SashaMaslak/signal-bot/issues"
+  },
+  "homepage": "https://github.com/SashaMaslak/signal-bot#readme",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dayjs": "^1.11.19",
+    "dotenv": "^17.2.3",
+    "node-telegram-bot-api": "^0.67.0",
+    "technicalindicators": "^3.1.0",
+    "telegraf": "^4.16.3"
+  }
+}
